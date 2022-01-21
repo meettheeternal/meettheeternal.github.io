@@ -69,8 +69,6 @@ const trainingsTemplate = () => html`${certificates}`;
 
 export function aboutPage(ctx) {
     ctx.render(aboutTemplate(showSkills, showEducation, showTrainings));
-    alert(`Still Under Construction`);
-
 }
 
 function showSkills() {

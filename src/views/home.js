@@ -5,5 +5,4 @@ const homeTemplate = () => html`${home}`
 
 export function homepage(ctx) {
     ctx.render(homeTemplate());
-    alert(`Still Under Construction`);
 }

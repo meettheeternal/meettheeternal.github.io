@@ -6,5 +6,4 @@ const servicesTemplate = () => html`${services}`
 
 export function servicesPage(ctx) {
     ctx.render(servicesTemplate());
-    alert(`Still Under Construction`);
 }
